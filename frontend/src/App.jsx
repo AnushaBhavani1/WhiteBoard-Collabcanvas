@@ -5,7 +5,7 @@ import RoomPage from "./pages/RoomPage";
 import io from "socket.io-client";
 import { toast, ToastContainer } from "react-toastify";
 
-const server = "http://localhost:5000";
+const server = "https://whiteboard-collabcanvas.onrender.com";
 const connectionOptions = {
   "force new connection": true,
   reconnectionAttempts: Infinity,
